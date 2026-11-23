@@ -1,16 +1,71 @@
-# React + Vite
+# 🍔 FoodOrderManager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📦 Simple. Organized. Efficient Food Order Management.
 
-Currently, two official plugins are available:
+FoodOrderManager is a full-stack web application designed to help restaurant staff efficiently manage food orders, menu items, and order statuses through a clean and user-friendly dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application connects a React frontend with a Node.js and Express.js backend, using MySQL for storing and managing order data.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Project Preview
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="screenshots/foodordermanager.png" alt="FoodOrderManager Preview" width="900">
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 📊 Dashboard with order statistics
+- 🧾 View and manage food orders
+- ⏳ Track pending orders
+- 👨‍🍳 Monitor preparing orders
+- ✅ Track completed orders
+- 🍔 Manage menu items
+- ➕ Add new orders
+- ✏️ Update order details
+- 🗑️ Delete orders
+- 🔍 Search and filter orders
+- 🔗 REST API integration
+- 🗄️ MySQL database connectivity
+- ⚡ Responsive and user-friendly interface
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| ⚛️ React.js | Frontend |
+| 🟢 Node.js | Backend Runtime |
+| 🚂 Express.js | REST API |
+| 🐬 MySQL | Database |
+| 🖥️ XAMPP | Local Database Server |
+| 📮 Postman | API Testing |
+| 📝 VS Code | Development |
+| 🌐 Git & GitHub | Version Control |
+
+---
+
+## 🏗️ Application Flow
+
+```text
+        👨‍💼 Staff
+           │
+           ▼
+    ⚛️ React Frontend
+           │
+           │ API Requests
+           ▼
+     🚂 Express.js
+           │
+           ▼
+       🟢 Node.js
+           │
+           ▼
+       🐬 MySQL
+           │
+           ▼
+      🍔 Order Data
