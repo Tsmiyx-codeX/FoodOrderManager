@@ -9,7 +9,7 @@ const menuItems = [
     description: "Aromatic basmati rice with tender chicken",
     price: "₹280",
     category: "Main Course",
-    image: "https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg",
+    image: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg",
     available: true,
   },
   
